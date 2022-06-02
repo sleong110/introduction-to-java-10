@@ -10,6 +10,6 @@ public class Exercise2_1 {
         double celsius = input.nextDouble();
 
         double fahrenheit = ( 9.0 / 5 ) * celsius + 32;
-        System.out.println(celsius + " Celsius is " + fahrenheit + " Fahrenheit");
+        System.out.println((int)(celsius * 10) / 10.0 + " Celsius is " + fahrenheit + " Fahrenheit");
     }
 }
